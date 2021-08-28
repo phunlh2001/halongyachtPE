@@ -1,0 +1,186 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #fff;
+}
+
+/*css for navigation header*/
+
+.header {
+	background-color: #ccc;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner-header img {
+	height: 100vh;
+	width: 100vw;
+}
+
+.navbar li {
+	display: inline-block;
+}
+
+.navbar li a {
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 0 50px;
+	line-height: 30px;
+	margin: 0;
+}
+
+.navbar li:hover a {
+	background-color: #fff;
+	color: #000;
+	display: inline-block;
+}
+
+.header-bottom {
+	background-color: #ccc;
+	height: 50px;
+
+}
+
+.header-bottom div,
+.header-bottom h2 {
+	display: inline-block;
+	padding: 0 50px;
+	line-height: 50px;
+}
+
+.header-bottom h2 {
+	color: #fff;
+}
+
+.header-bottom .timkiem a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.header-bottom .timkiem:hover a {
+	background-color: #fff;
+	color: #000;
+}
+
+.form-group {
+	padding: 0 24px;
+}
+
+.title-bottom-header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 4px;
+	color: #669;
+}
+
+.content {
+	display: inline-flex;
+	background-color: #fff;
+	color: #fff;
+	margin: 0 300px;
+}
+
+.content .content-1,
+.content .content-2 {
+	border: 12px solid #fff;
+}
+
+.content .images img {
+	height: 280px;
+	width: 300px;
+}
+
+.content .noidung {
+	height: 300px;
+	width: 400px;
+	background-color: #ccc;
+	padding: 8px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.content .btn {
+	margin-top: 8px;
+}
+
+.content .btn a {
+	text-decoration: none;
+	padding: 4px 12px;
+	border: 1px solid lightblue;
+	border-radius: 10px;
+	background-color: #fff;
+	color: #000;
+	font-weight: bold;
+}
+
+.content .btn:hover a {
+	color: #fff;
+	background-color: #000;
+}
+
+/*design your tour*/
+
+.content-design {
+	height: 600px;
+	width: 100%;
+	display: block;
+}
+
+.content-design .content-title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #66c;
+	padding: 24px;
+}
+
+.content-design-noidung:not(:first-child) {
+	display: inline-block;
+}
+
+.content-design-noidung img {
+	height: 200px;
+}
+
+.content-design-noidung a {
+	text-decoration: none;
+	color: #fff;
+
+}
+
+.content-design-noidung:not(img) {
+	background-color: #333;
+	color: #fff;
+	height: 400px;
+	width: 300px;
+	margin: 0 52px;
+	text-align: center;
+}
+
+/*css for footer*/
+.footer {
+	height: 200px;
+	width: 100%;
+	background-color: #333;
+	color: #fff;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer .content-footer {
+	margin: 40px;
+}
+
+.footer .content-footer:not(:first-child) h4 {
+	padding: 12px 0;
+}
