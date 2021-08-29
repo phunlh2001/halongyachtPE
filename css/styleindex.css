@@ -43,15 +43,15 @@ body {
 /*css for header bottom*/
 .header-bottom {
 	background-color: #ccc;
-	height: 50px;
+	height: 48px;
 
 }
 
 .header-bottom div,
 .header-bottom h2 {
 	display: inline-block;
-	padding: 0 50px;
-	line-height: 50px;
+	padding: 0 48px;
+	line-height: 44px;
 }
 
 .header-bottom h2 {
