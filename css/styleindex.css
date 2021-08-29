@@ -92,7 +92,6 @@ body {
 
 .content {
 	display: inline-flex;
-	background-color: #fff;
 	color: #fff;
 	margin-left: 300px;
 }
@@ -106,17 +105,19 @@ body {
 	height: 280px;
 	width: 300px;
 	transition: 0.2s;
+	opacity: 0.9;
 }
 
 .content .images img:hover {
 	cursor: pointer;
 	transform: scale(1.2, 1.2);
+	opacity: 1;
 }
 
 .content .noidung {
 	height: 300px;
 	width: 400px;
-	background-color: #ccc;
+	background-color: #666;
 	padding: 8px;
 	text-align: center;
 	display: flex;
